@@ -1,0 +1,3 @@
+C:/Users/asus/CLionProjects/2d_points/cmake-build-debug/CMakeFiles/2d_points.dir
+C:/Users/asus/CLionProjects/2d_points/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/asus/CLionProjects/2d_points/cmake-build-debug/CMakeFiles/rebuild_cache.dir

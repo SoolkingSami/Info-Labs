@@ -1,0 +1,6 @@
+copii(X) :- parinte(X, Copil), writeln(Copil), fail.
+copii(_X).
+nepoti(Y) :- parinte(Y, Copil), parinte(Copil, Nepot), writeln(Nepot), fail.
+nepoti(_Y).
+
+descendenti(X) :- copii(X), nepoti(X).

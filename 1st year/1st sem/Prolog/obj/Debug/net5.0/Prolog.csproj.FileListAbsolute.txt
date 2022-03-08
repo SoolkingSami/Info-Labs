@@ -1,0 +1,16 @@
+C:\Users\asus\Documents\Prolog\bin\Debug\net5.0\Prolog.exe
+C:\Users\asus\Documents\Prolog\bin\Debug\net5.0\Prolog.deps.json
+C:\Users\asus\Documents\Prolog\bin\Debug\net5.0\Prolog.runtimeconfig.json
+C:\Users\asus\Documents\Prolog\bin\Debug\net5.0\Prolog.runtimeconfig.dev.json
+C:\Users\asus\Documents\Prolog\bin\Debug\net5.0\Prolog.dll
+C:\Users\asus\Documents\Prolog\bin\Debug\net5.0\ref\Prolog.dll
+C:\Users\asus\Documents\Prolog\bin\Debug\net5.0\Prolog.pdb
+C:\Users\asus\Documents\Prolog\obj\Debug\net5.0\Prolog.csproj.AssemblyReference.cache
+C:\Users\asus\Documents\Prolog\obj\Debug\net5.0\Prolog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\Documents\Prolog\obj\Debug\net5.0\Prolog.AssemblyInfoInputs.cache
+C:\Users\asus\Documents\Prolog\obj\Debug\net5.0\Prolog.AssemblyInfo.cs
+C:\Users\asus\Documents\Prolog\obj\Debug\net5.0\Prolog.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\Prolog\obj\Debug\net5.0\Prolog.dll
+C:\Users\asus\Documents\Prolog\obj\Debug\net5.0\ref\Prolog.dll
+C:\Users\asus\Documents\Prolog\obj\Debug\net5.0\Prolog.pdb
+C:\Users\asus\Documents\Prolog\obj\Debug\net5.0\Prolog.genruntimeconfig.cache

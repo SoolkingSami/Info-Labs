@@ -1,0 +1,3 @@
+C:/Users/asus/CLionProjects/tema_lab1/cmake-build-debug/CMakeFiles/tema_lab1.dir
+C:/Users/asus/CLionProjects/tema_lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/asus/CLionProjects/tema_lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

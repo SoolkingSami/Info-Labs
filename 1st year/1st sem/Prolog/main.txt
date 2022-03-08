@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    // convert to binary using bitwise operators
+    for (int c = 31; c >= 0; c--) {
+        // get the current bit
+        int result = n >> c;
+
+        // test if the bit is set or not
+        if (result & 1)
+            cout << "1";
+        else
+            cout << "0";
+    }
+
+    return 0;
+}

@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\6_vector_del_all_val.dir/objects.a
+C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\ar.exe cr CMakeFiles\6_vector_del_all_val.dir/objects.a @CMakeFiles\6_vector_del_all_val.dir\objects1.rsp
+C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\6_vector_del_all_val.dir/objects.a -Wl,--no-whole-archive -o 6_vector_del_all_val.exe -Wl,--out-implib,lib6_vector_del_all_val.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\6_vector_del_all_val.dir\linklibs.rsp

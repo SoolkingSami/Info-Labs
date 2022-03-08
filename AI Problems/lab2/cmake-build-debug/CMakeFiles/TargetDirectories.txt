@@ -1,0 +1,3 @@
+D:/AI Problems/lab2/cmake-build-debug/CMakeFiles/lab2.dir
+D:/AI Problems/lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/AI Problems/lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+D:/AI Problems/3_vector_swap_pos/cmake-build-debug/CMakeFiles/3_vector_swap_pos.dir
+D:/AI Problems/3_vector_swap_pos/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/AI Problems/3_vector_swap_pos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

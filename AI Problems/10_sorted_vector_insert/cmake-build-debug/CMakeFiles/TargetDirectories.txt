@@ -1,0 +1,3 @@
+D:/AI Problems/10_sorted_vector_insert/cmake-build-debug/CMakeFiles/10_sorted_vector_insert.dir
+D:/AI Problems/10_sorted_vector_insert/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/AI Problems/10_sorted_vector_insert/cmake-build-debug/CMakeFiles/rebuild_cache.dir

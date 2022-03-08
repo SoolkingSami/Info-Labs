@@ -1,0 +1,3 @@
+D:/OOP/student_struct/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/OOP/student_struct/cmake-build-debug/CMakeFiles/student_struct.dir
+D:/OOP/student_struct/cmake-build-debug/CMakeFiles/rebuild_cache.dir

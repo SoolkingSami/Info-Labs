@@ -1,0 +1,46 @@
+Enter the name of the source city:
+Vaslui
+Enter the name of the destination city:
+Arad
+The chain of cities between Vaslui and Arad is:
+
+Using DFS:
+Vaslui
+Urziceni
+Bucharest
+Pitesti
+Ramnicu_Valcea
+Sibiu
+Arad
+
+Distance from Vaslui to Arad is: 645 km
+Time from Vaslui to Arad is: 3.2 hours
+Number of cars from Vaslui to Arad is: 44 cars
+Number of cities from Vaslui to Arad is: 6 cities
+
+Using BFS:
+Vaslui
+Urziceni
+Bucharest
+Fagaras
+Sibiu
+Arad
+
+Distance from Vaslui to Arad is: 677 km
+Time from Vaslui to Arad is: 3.5 hours
+Number of cars from Vaslui to Arad is: 33 cars
+Number of cities from Vaslui to Arad is: 5 cities
+
+Using Dijkstra:
+Vaslui
+Urziceni
+Bucharest
+Pitesti
+Ramnicu_Valcea
+Sibiu
+Arad
+
+Distance from Vaslui to Arad is: 645 km
+Time from Vaslui to Arad is: 3.2 hours
+Number of cars from Vaslui to Arad is: 44 cars
+Number of cities from Vaslui to Arad is: 6 cities

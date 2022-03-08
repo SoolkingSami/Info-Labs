@@ -1,0 +1,86 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/application_logic/Application.h
+iostream
+-
+string
+-
+../data/patient_repository/PatientRepository.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/patient_repository/PatientRepository.h
+../presentation/IView.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/presentation/IView.h
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/patient/Patient.h
+string
+-
+iostream
+-
+../utils/Cholesterol.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/Cholesterol.h
+../utils/BloodPressure.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/BloodPressure.h
+../utils/PersonDTO.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/PersonDTO.h
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/BloodPressure.h
+string
+-
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/Cholesterol.h
+string
+-
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/PersonDTO.h
+string
+-
+fstream
+-
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/patient_repository/IPatientRepository.h
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/patient_repository/PatientRepository.h
+vector
+-
+algorithm
+-
+../entities/patient/Patient.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/patient/Patient.h
+../patient_scanner/PatientScanner.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/patient_scanner/PatientScanner.h
+./IPatientRepository.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/patient_repository/IPatientRepository.h
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/patient_scanner/PatientScanner.h
+iostream
+-
+string
+-
+fstream
+-
+../entities/patient/Patient.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/patient/Patient.h
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/main.cpp
+iostream
+-
+application_logic/Application.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/application_logic/Application.h
+presentation/PatientView.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/presentation/PatientView.h
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/presentation/IView.h
+vector
+-
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/presentation/PatientView.h
+../data/entities/patient/Patient.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/patient/Patient.h
+IView.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/presentation/IView.h
+

@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug"/>
+				<Option working_dir="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug"/>
+				<Option working_dir="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="medical_office">
-				<Option output="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/medical_office.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug"/>
+				<Option output="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/medical_office.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -43,15 +43,15 @@
 					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 medical_office"/>
-					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 medical_office"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="medical_office/fast">
-				<Option output="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/medical_office.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug"/>
+				<Option output="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/medical_office.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -65,111 +65,111 @@
 					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 medical_office/fast"/>
-					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 medical_office/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug"/>
+				<Option working_dir="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs 1 Sem 2/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/application_logic/Application.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/application_logic/Application.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/application_logic/Application.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/application_logic/Application.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/adult_patient/AdultPatient.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/adult_patient/AdultPatient.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/adult_patient/AdultPatient.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/adult_patient/AdultPatient.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/child_patient/ChildPatient.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/child_patient/ChildPatient.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/child_patient/ChildPatient.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/child_patient/ChildPatient.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/patient/Patient.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/patient/Patient.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/patient/Patient.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/patient/Patient.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/utils/BloodPressure.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/BloodPressure.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/utils/BloodPressure.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/BloodPressure.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/utils/Cholesterol.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/Cholesterol.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/utils/Cholesterol.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/Cholesterol.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/utils/PersonDTO.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/PersonDTO.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/utils/PersonDTO.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/PersonDTO.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/utils/ProteinC.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/ProteinC.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/utils/ProteinC.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/ProteinC.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/utils/Sedentariness.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/Sedentariness.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/utils/Sedentariness.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/utils/Sedentariness.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/young_adult_patient/YoungAdultPatient.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/young_adult_patient/YoungAdultPatient.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/entities/young_adult_patient/YoungAdultPatient.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/entities/young_adult_patient/YoungAdultPatient.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/patient_repository/IPatientRepository.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/patient_repository/IPatientRepository.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/patient_repository/PatientRepository.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/patient_repository/PatientRepository.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/patient_repository/PatientRepository.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/patient_repository/PatientRepository.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/patient_scanner/PatientScanner.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/patient_scanner/PatientScanner.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/data/patient_scanner/PatientScanner.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/data/patient_scanner/PatientScanner.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/main.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/main.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/presentation/IView.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/presentation/IView.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/presentation/PatientView.cpp">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/presentation/PatientView.cpp">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/presentation/PatientView.h">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/presentation/PatientView.h">
 			<Option target="medical_office"/>
 		</Unit>
-		<Unit filename="D:/Info Labs 1 Sem 2/OOP Problems/medical_office/CMakeLists.txt">
+		<Unit filename="D:/Info Labs/1st year/2nd sem/OOP Problems/medical_office/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

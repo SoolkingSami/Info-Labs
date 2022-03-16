@@ -8,11 +8,11 @@ private:
     int size;
 
 public:
-    Set(int size, int *arr);
+    Set(int size=0, int *arr=nullptr);
     ~Set();
-    void print();
-    Set* unionSet(const Set& set);
-    Set *intersectionSet(const Set& set);
+    void print() const;
+    static Set* unionSet(const Set& set1, const Set& set2);
+    static Set *intersectionSet(const Set& set1, const Set& set2);
 };
 
 Set::Set(int size, int *arr) {
@@ -24,38 +24,38 @@ Set::~Set() {
     delete[] arr;
 }
 
-void Set::print() {
+void Set::print() const {
     for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
     }
     cout << endl;
 }
 
-Set* Set::unionSet(const Set& set) {
+Set* Set::unionSet(const Set& set1, const Set& set2) {
     cout << "Union: " << endl;
-    int *newArr = new int[size + set.size];
+    int *newArr = new int[set1.size + set2.size];
     int i = 0;
     int j = 0;
     int k = 0;
-    while (i < size && j < set.size) {
-        if (arr[i] < set.arr[j]) {
-            newArr[k++] = arr[i];
+    while (i < set1.size && j < set2.size) {
+        if (set1.arr[i] < set2.arr[j]) {
+            newArr[k++] = set1.arr[i];
             i++;
-        } else if (arr[i] > set.arr[j]) {
-            newArr[k++] = set.arr[j];
+        } else if (set1.arr[i] > set2.arr[j]) {
+            newArr[k++] = set2.arr[j];
             j++;
         } else {
-            newArr[k++] = arr[i];
+            newArr[k++] = set1.arr[i];
             i++;
             j++;
         }
     }
-    while (i < size) {
-        newArr[k++] = arr[i];
+    while (i < set1.size) {
+        newArr[k++] = set1.arr[i];
         i++;
     }
-    while (j < set.size) {
-        newArr[k++] = set.arr[j];
+    while (j < set2.size) {
+        newArr[k++] = set2.arr[j];
         j++;
     }
     int *temp = newArr;
@@ -68,19 +68,19 @@ Set* Set::unionSet(const Set& set) {
     return newSet;
 }
 
-Set* Set::intersectionSet(const Set& set) {
+Set* Set::intersectionSet(const Set& set1, const Set& set2) {
     cout << "Intersection: " << endl;
-    int *newArr = new int[size + set.size];
+    int *newArr = new int[set1.size + set2.size];
     int i = 0;
     int j = 0;
     int k = 0;
-    while (i < size && j < set.size) {
-        if (arr[i] < set.arr[j]) {
+    while (i < set1.size && j < set2.size) {
+        if (set1.arr[i] < set2.arr[j]) {
             i++;
-        } else if (arr[i] > set.arr[j]) {
+        } else if (set1.arr[i] > set2.arr[j]) {
             j++;
         } else {
-            newArr[k++] = arr[i];
+            newArr[k++] = set1.arr[i];
             i++;
             j++;
         }
@@ -102,10 +102,10 @@ int main() {
     set1.print();
     set2.print();
 
-    Set *set3 = set1.unionSet(set2);
+    Set *set3 = Set::unionSet(set1, set2);
     set3->print();
 
-    Set *set4 = set1.intersectionSet(set2);
+    Set *set4 = Set::intersectionSet(set1, set2);
     set4->print();
 
     return 0;

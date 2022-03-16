@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\student_group.dir/objects.a
+C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\ar.exe cr CMakeFiles\student_group.dir/objects.a @CMakeFiles\student_group.dir\objects1.rsp
+C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\student_group.dir/objects.a -Wl,--no-whole-archive -o student_group.exe -Wl,--out-implib,libstudent_group.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\student_group.dir\linklibs.rsp

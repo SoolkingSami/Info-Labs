@@ -1,3 +1,0 @@
-D:/Info Labs/1st year/2nd sem/OOP Problems/lab4/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Info Labs/1st year/2nd sem/OOP Problems/lab4/cmake-build-debug/CMakeFiles/lab4.dir
-D:/Info Labs/1st year/2nd sem/OOP Problems/lab4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

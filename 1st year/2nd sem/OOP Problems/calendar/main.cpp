@@ -1,6 +1,37 @@
 #include <iostream>
+#include <map>
 
 using namespace std;
+
+map<int, string> monthToString = {
+    {1, "January"},
+    {2, "February"},
+    {3, "March"},
+    {4, "April"},
+    {5, "May"},
+    {6, "June"},
+    {7, "July"},
+    {8, "August"},
+    {9, "September"},
+    {10, "October"},
+    {11, "November"},
+    {12, "December"}
+};
+
+map<int, int> monthToDays = {
+    {1, 31},
+    {2, 28},
+    {3, 31},
+    {4, 30},
+    {5, 31},
+    {6, 30},
+    {7, 31},
+    {8, 31},
+    {9, 30},
+    {10, 31},
+    {11, 30},
+    {12, 31}
+};
 
 class CalendarDay {
 private:
@@ -13,6 +44,9 @@ public:
     CalendarDay(const CalendarDay &other);
 
     friend int getDifference(const CalendarDay &day1, const CalendarDay &day2);
+
+    bool isLeapYear() const;
+    string toStringMonth() const;
 
     friend istream& operator>>(istream& is, CalendarDay& cd);
     friend ostream& operator<<(ostream& os, const CalendarDay& cd);
@@ -58,19 +92,40 @@ ostream& operator<<(ostream& os, const CalendarDay& cd) {
 }
 
 int getDifference(const CalendarDay &day1, const CalendarDay &day2) {
-    int days;
-    if (day1.year == day2.year) {
-        if (day1.month == day2.month) {
-            days = day2.day - day1.day;
-        } else {
-            days = (day2.day - day1.day) + (day2.month - day1.month) * 30;
+    int days = 0;
+    int yearDiff = abs(day1.getYear() - day2.getYear());
+    int monthDiff = abs(day1.getMonth() - day2.getMonth());
+    int dayDiff = abs(day1.getDay() - day2.getDay());
+
+    if (yearDiff > 0) {
+        for (int i = 0; i < yearDiff; i++) {
+            if (day1.isLeapYear()) {
+                days += 366;
+            } else {
+                days += 365;
+            }
         }
-    } else {
-        days = (day2.day - day1.day)
-                + (day2.month - day1.month) * 30
-                + (day2.year - day1.year) * 365;
     }
-    return abs(days);
+
+    if (monthDiff > 0) {
+        for (int i = 0; i < monthDiff; i++) {
+            days += monthToDays[day1.getMonth()];
+        }
+    }
+
+    if (dayDiff > 0) {
+        days += dayDiff;
+    }
+
+    return days;
+}
+
+string CalendarDay::toStringMonth() const {
+    return to_string(day) + " " + monthToString[month] + " " + to_string(year);
+}
+
+bool CalendarDay::isLeapYear() const {
+    return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
 }
 
 int main() {
@@ -79,6 +134,9 @@ int main() {
     cin >> day1;
     cout << "Enter second date (day/month/year):\n";
     cin >> day2;
+
+    cout << "Date Time 1: " << day1.toStringMonth() << endl;
+    cout << "Date Time 2: " << day2.toStringMonth() << endl;
 
     cout << "The difference between " << day1 << " and " << day2
          << " is of " << getDifference(day1, day2) << " days" << endl;

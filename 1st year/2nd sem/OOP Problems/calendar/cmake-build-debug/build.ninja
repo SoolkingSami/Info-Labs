@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/barbu/CLionProjects/calendar/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/barbu/CLionProjects/Info-Labs/1st$ year/2nd$ sem/OOP$ Problems/calendar/cmake-build-debug/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\barbu\CLionProjects\calendar\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\barbu\CLionProjects\Info-Labs\1st year\2nd sem\OOP Problems\calendar\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -60,7 +60,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_demo_cpp: phony || CMakeFiles/demo_cpp.dir
 
-build CMakeFiles/demo_cpp.dir/main.cpp.obj: CXX_COMPILER__demo_cpp_Debug C$:/Users/barbu/CLionProjects/calendar/main.cpp || cmake_object_order_depends_target_demo_cpp
+build CMakeFiles/demo_cpp.dir/main.cpp.obj: CXX_COMPILER__demo_cpp_Debug C$:/Users/barbu/CLionProjects/Info-Labs/1st$ year/2nd$ sem/OOP$ Problems/calendar/main.cpp || cmake_object_order_depends_target_demo_cpp
   DEP_FILE = CMakeFiles\demo_cpp.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++17
   OBJECT_DIR = CMakeFiles\demo_cpp.dir
@@ -92,7 +92,7 @@ build demo_cpp.exe: CXX_EXECUTABLE_LINKER__demo_cpp_Debug CMakeFiles/demo_cpp.di
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\barbu\CLionProjects\calendar\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\barbu\CLionProjects\calendar -BC:\Users\barbu\CLionProjects\calendar\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\barbu\CLionProjects\Info-Labs\1st year\2nd sem\OOP Problems\calendar\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\barbu\CLionProjects\Info-Labs\1st year\2nd sem\OOP Problems\calendar" -B"C:\Users\barbu\CLionProjects\Info-Labs\1st year\2nd sem\OOP Problems\calendar\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build demo_cpp: phony demo_cpp.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/barbu/CLionProjects/calendar/cmake-build-debug
+# Folder: C:/Users/barbu/CLionProjects/Info-Labs/1st year/2nd sem/OOP Problems/calendar/cmake-build-debug
 
 build all: phony demo_cpp.exe
 

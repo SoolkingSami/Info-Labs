@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/barbu/CLionProjects/calendar/cmake-build-debug"
+			"value" : "c:/Users/barbu/CLionProjects/Info-Labs/1st year/2nd sem/OOP Problems/calendar/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/barbu/CLionProjects/calendar"
+			"value" : "C:/Users/barbu/CLionProjects/Info-Labs/1st year/2nd sem/OOP Problems/calendar"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/barbu/CLionProjects/calendar/cmake-build-debug"
+			"value" : "C:/Users/barbu/CLionProjects/Info-Labs/1st year/2nd sem/OOP Problems/calendar/cmake-build-debug"
 		},
 		{
 			"name" : "demo_cpp_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/barbu/CLionProjects/calendar"
+			"value" : "C:/Users/barbu/CLionProjects/Info-Labs/1st year/2nd sem/OOP Problems/calendar"
 		}
 	],
 	"kind" : "cache",

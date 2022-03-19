@@ -42,7 +42,7 @@ rule CXX_EXECUTABLE_LINKER__demo_cpp_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\barbu\CLionProjects\calendar -BC:\Users\barbu\CLionProjects\calendar\cmake-build-debug
+  command = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\barbu\CLionProjects\Info-Labs\1st year\2nd sem\OOP Problems\calendar" -B"C:\Users\barbu\CLionProjects\Info-Labs\1st year\2nd sem\OOP Problems\calendar\cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

@@ -31,15 +31,14 @@ def solve_maze(maze_local):
 
 
 def solve_maze_util(maze_local, x, y, sol):
-    print(f'We are currently in ({x}, {y}):')
-    print_solution(sol)
-
     if x == N - 1 and y == N - 1:
         sol[x][y] = 1
         return True
 
     if is_safe(maze_local, x, y, sol):
         sol[x][y] = 1
+        print(f'We are currently in ({x}, {y}):')
+        print_solution(sol)
 
         for to_x, to_y in zip(dx, dy):
             if solve_maze_util(maze_local, x + to_x, y + to_y, sol):
@@ -51,6 +50,6 @@ def solve_maze_util(maze_local, x, y, sol):
 
 maze = [[1, 0, 0, 0], [1, 1, 0, 1], [0, 1, 0, 0], [1, 1, 1, 1]]
 # with open("maze.txt", "rt") as f:
-#     N = int(next(f))
+#     N =
 #     start_x, start_y, end_x, end_y =
-# solve_maze(maze)
+solve_maze(maze)

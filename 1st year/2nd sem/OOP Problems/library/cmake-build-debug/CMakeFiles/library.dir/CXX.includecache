@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/data access/Library.h
+../entities/Article.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Article.h
+vector
+-
+algorithm
+-
+functional
+-
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Article.h
+fstream
+-
+iostream
+-
+string
+-
+sstream
+-
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Book.h
+Article.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Article.h
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/CD_ROM.h
+Article.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Article.h
+vector
+-
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Magazine.h
+Article.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Article.h
+vector
+-
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/main.cpp
+iostream
+-
+entities/Article.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Article.h
+data access/Library.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/data access/Library.h
+entities/Book.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Book.h
+entities/Magazine.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Magazine.h
+entities/CD_ROM.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/CD_ROM.h
+

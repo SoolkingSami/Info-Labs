@@ -189,10 +189,25 @@ def order_input(reverse=False):
     return sort_input
 
 
-@order_input()
-def get_string():
-    return input('Enter a string :> ')
+# @order_input()
+# def get_string():
+#     return input('Enter a string :> ')
 
 
 # get_string = order_input(reverse=True)(get_string)
-print(get_string)
+# print(get_string)
+
+def is_odd(x):
+    return not is_even(x)
+
+
+def is_even(x):
+    if x == 0:
+        return True
+    if is_odd(x - 1):
+        return True
+    return False
+
+
+print(is_odd(5))
+print(is_even(5))

@@ -1,0 +1,82 @@
+book
+19989
+Snow Crash
+1992
+cyberpunk
+Neal Stephenson
+Corint
+592
+973-102-302-1
+
+magazine
+19992
+The New Yorker
+2022
+news
+3
+Virtual Reality
+Cloud Computing
+Quantum Computing
+12
+interview
+
+cd
+98330
+Smiley Mai mult de-o viata
+2022
+pop music
+5
+Locul sfinteste omul
+Nu mai exista dup-aia
+Purtat de vant
+Mi-aduc aminte
+Mai mult de-o viata
+512
+mp4
+30
+
+book
+19990
+Foundation
+1942
+scifi
+Isaac Asimov
+Penguin Classics
+231
+0-553-29335-4
+
+book
+19991
+The Martian Chronicles
+1992
+scifi
+Andy Weir
+HarperCollins
+848
+0-7356-0277-4
+
+magazine
+19993
+Time Out
+2022
+news
+4
+Is Google the new Apple?
+The Future of the Internet
+Golang vs C++
+Will Wasm replace Js?
+5
+blog-post
+
+cd
+98331
+The Beatles
+1968
+pop-rock music
+3
+Dear Prudence
+Glass Onion
+Wild Honey Pie
+256
+mp3
+15

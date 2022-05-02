@@ -17,16 +17,6 @@
 					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="library">
 				<Option output="D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/library.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug"/>
@@ -66,6 +56,16 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 library/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Info Labs/1st year/2nd sem/OOP Problems/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>

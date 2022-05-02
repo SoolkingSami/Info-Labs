@@ -1,0 +1,15 @@
+# ninja log v5
+51	3741	6725835311323399	CMakeFiles/library.dir/entities/Book.cpp.obj	b6444ac255a8f89f
+48	3944	6725835313603386	CMakeFiles/library.dir/entities/Article.cpp.obj	6914d3de984ed926
+62	4234	6725835317533402	CMakeFiles/library.dir/entities/Magazine.cpp.obj	e31ad1f2f3a221ce
+54	4412	6725835319563427	CMakeFiles/library.dir/entities/CD_ROM.cpp.obj	e5cb2488b52105e
+0	4625	6725835321703422	CMakeFiles/library.dir/main.cpp.obj	e61ab9b69e63db62
+57	5893	6725835334413395	CMakeFiles/library.dir/data_access/Library.cpp.obj	38910b381722cc54
+5893	8704	6725835362103373	library.exe	60052f38182cd5ee
+1	3900	6725838723122160	CMakeFiles/library.dir/entities/Article.cpp.obj	6914d3de984ed926
+14	4005	6725838726032135	CMakeFiles/library.dir/entities/CD_ROM.cpp.obj	e5cb2488b52105e
+17	4162	6725838726522183	CMakeFiles/library.dir/entities/Book.cpp.obj	b6444ac255a8f89f
+20	4458	6725838730732177	CMakeFiles/library.dir/entities/Magazine.cpp.obj	e31ad1f2f3a221ce
+10	4814	6725838733682116	CMakeFiles/library.dir/main.cpp.obj	e61ab9b69e63db62
+23	5532	6725838741502103	CMakeFiles/library.dir/data_access/Library.cpp.obj	38910b381722cc54
+5533	6164	6725838746482133	library.exe	60052f38182cd5ee

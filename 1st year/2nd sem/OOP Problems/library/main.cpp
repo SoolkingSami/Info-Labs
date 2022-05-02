@@ -10,13 +10,13 @@ using namespace std;
 template<typename T>
 void print(const vector<T>& v) {
     cout << endl;
-    for (auto& e : v) {
+    for (const auto& e : v) {
         cout << e << endl;
     }
 }
 
 int main() {
-    auto* lib = new Library("../data.txt");
+    auto* lib = new Library("data.txt");
 
     cout << "Get the whole library:" << endl;
     print<Article*>(lib->getAllArticles());
@@ -67,23 +67,29 @@ int main() {
 
     cout << "Get all books sorted desc by year between 1950 and 2000:" << endl;
 
-    auto isBook = [](Article* a) {
+    auto is_book = [](Article* a) {
         return dynamic_cast<Book*>(a) != nullptr;
     };
 
-    auto isBetweenYears = [](Article* a) {
+    auto is_between_years = [](Article* a) {
         return a->getReleaseYear() >= 1950 && a->getReleaseYear() <= 2000;
     };
 
-    auto sortByYearDesc = [](Article* a, Article* b) {
+    auto sort_by_year_desc = [](Article* a, Article* b) {
         return a->getReleaseYear() > b->getReleaseYear();
     };
 
     print<Article*>(
-        lib->getArticlesByFilter(isBook)
-        ->getArticlesByFilter(isBetweenYears)
-        ->sortArticlesByFilter(sortByYearDesc)
+        lib->getArticlesByFilter(is_book)
+        ->getArticlesByFilter(is_between_years)
+        ->sortArticlesByFilter(sort_by_year_desc)
         ->getAllArticles());
+
+    cout << "Get all articles:" << endl;
+    print<Article*>(lib->getAllArticles());
+
+    cout << "Get all books:" << endl;
+    print<Article*>(lib->getArticlesByType<Book>());
 
     delete lib;
     return 0;

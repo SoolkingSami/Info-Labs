@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/data access/Library.cpp
+../entities/Book.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Book.h
+../entities/Magazine.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Magazine.h
+../entities/CD_ROM.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/CD_ROM.h
+Library.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/data access/Library.h
+
 D:/Info Labs/1st year/2nd sem/OOP Problems/library/data access/Library.h
 ../entities/Article.h
 D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Article.h
@@ -16,25 +26,39 @@ algorithm
 functional
 -
 
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Article.cpp
+Article.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Article.h
+
 D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Article.h
 fstream
--
-iostream
 -
 string
 -
 sstream
 -
 
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Book.cpp
+Book.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Book.h
+
 D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Book.h
 Article.h
 D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Article.h
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/CD_ROM.cpp
+CD_ROM.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/CD_ROM.h
 
 D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/CD_ROM.h
 Article.h
 D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Article.h
 vector
 -
+
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Magazine.cpp
+Magazine.h
+D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Magazine.h
 
 D:/Info Labs/1st year/2nd sem/OOP Problems/library/entities/Magazine.h
 Article.h

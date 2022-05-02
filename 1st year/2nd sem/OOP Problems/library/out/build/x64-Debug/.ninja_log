@@ -1,0 +1,8 @@
+# ninja log v5
+23	2756	6725783060987158	CMakeFiles/library.dir/entities/Article.cpp.obj	aafc9242d85e9536
+31	2938	6725783061917180	CMakeFiles/library.dir/entities/CD_ROM.cpp.obj	26a9c9bf9a8dde4c
+55	2948	6725783062917166	CMakeFiles/library.dir/entities/Magazine.cpp.obj	3b86aa27209c66b0
+1	1692	6725793602049104	CMakeFiles/library.dir/main.cpp.obj	579ab157d031890c
+47	2950	6725783062927177	CMakeFiles/library.dir/entities/Book.cpp.obj	b19788316b2e56d5
+39	3714	6725783070777178	CMakeFiles/library.dir/data_access/Library.cpp.obj	b575284b791042a0
+1692	2530	6725793609540695	library.exe	60052f38182cd5ee

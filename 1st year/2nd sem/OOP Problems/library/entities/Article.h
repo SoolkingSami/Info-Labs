@@ -7,7 +7,6 @@
 
 
 #include <fstream>
-#include <iostream>
 #include <string>
 #include <sstream>
 
@@ -37,9 +36,9 @@ public:
     void setGenre(const string& genre);
 
     friend ifstream &operator>>(ifstream &in, Article &article);
-    friend ostream& operator<<(ostream& os, const Article& article);
+    friend ostream& operator<<(ostream& out, const Article& article);
     friend ifstream &operator>>(ifstream &in, Article*& article);
-    friend ostream& operator<<(ostream& os, const Article* article);
+    friend ostream& operator<<(ostream& out, const Article* article);
 
 protected:
     virtual string toString() const;

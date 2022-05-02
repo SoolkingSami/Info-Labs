@@ -17,7 +17,5 @@ int main() {
         cerr << e.what() << endl;
     }
 
-    cout << "Press any key to exit..." << endl;
-    getchar();
-    return 0;
+	return 0;
 }

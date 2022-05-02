@@ -6,9 +6,9 @@
 
 
 Article::Article(const int& id, string title,
-                 const int& releaseDate, string genre):
+                 const int& releaseYear, string genre):
         id(id), title(move(title)),
-        releaseYear(releaseDate), genre(move(genre)) {}
+        releaseYear(releaseYear), genre(move(genre)) {}
 
 Article::Article(const Article &article):
         id(article.id), title(article.title),

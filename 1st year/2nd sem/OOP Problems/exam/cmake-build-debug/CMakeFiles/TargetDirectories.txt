@@ -1,0 +1,3 @@
+D:/Info Labs/1st year/2nd sem/OOP Problems/exam/cmake-build-debug/CMakeFiles/exam.dir
+D:/Info Labs/1st year/2nd sem/OOP Problems/exam/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Info Labs/1st year/2nd sem/OOP Problems/exam/cmake-build-debug/CMakeFiles/rebuild_cache.dir

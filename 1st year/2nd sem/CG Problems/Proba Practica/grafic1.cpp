@@ -100,77 +100,9 @@ void dash_line(punct A, punct B) {
 }
 
 void draw_figure() {
-    setcolor(MAGENTA);
-    cerc C1 = {404, 450, 110};
-    circle(C1.c.x, C1.c.y, C1.r);
-
-    draw_point(C1.c, MAGENTA);
-    outtextxy(C1.c.x - 10, C1.c.y, "O");
-
-    setcolor(GREEN);
-    punct C = {C1.c.x, C1.c.y - C1.r}, Cp = {C1.c.x, C1.c.y + C1.r};
-    draw_point(C, GREEN);
-    outtextxy(C.x, C.y - 10, "C");
-    draw_point(Cp, GREEN);
-    outtextxy(Cp.x, Cp.y + 10, "C'");
-    dash_line(C, Cp);
-    outtextxy(C.x - 10, (C.y + C1.c.y) / 2, "R");
-
-    setcolor(LIGHTRED);
-    cerc C2 = {576, 530, 80};
-    circle(C2.c.x, C2.c.y, C2.r);
-
-    draw_point(C2.c, LIGHTRED);
-    outtextxy(C2.c.x + 30, C2.c.y + 10, "W");
-
-    punct A = {C2.c.x, C2.c.y + C2.r};
-    draw_point(A, LIGHTRED);
-    outtextxy(A.x + 20, A.y + 30, "A");
-    setcolor(GREEN);
-    dash_line(C, A);
-    dash_line(Cp, A);
-
     setcolor(YELLOW);
-    line(C1.c.x, C1.c.y, C2.c.x, C2.c.y);
-    punct T = {(C1.c.x + C2.c.x) / 2 + 12, (C1.c.y + C2.c.y) / 2 + 7};
-    draw_point(T, YELLOW);
-    outtextxy(T.x - 10, T.y + 20, "T");
-
-    setcolor(CYAN);
-    setlinestyle(0, 0, 2);
-    line(Cp.x - 10, Cp.y + 50, C2.c.x + C2.r + 10, C2.c.y + C2.r);
-    outtextxy(C2.c.x + C2.r + 10, C2.c.y + C2.r, "(D)");
-    setlinestyle(0, 0, 0);
-
-    setcolor(YELLOW);
-    punct B = {A.x, A.y + C1.r}, Bp = {A.x, A.y - C1.r};
-    draw_point(B, YELLOW);
-    outtextxy(B.x + 25, B.y + 5, "B");
-    draw_point(Bp, YELLOW);
-    outtextxy(Bp.x + 20, Bp.y + 5, "B'");
-    line(Bp.x, Bp.y, B.x, B.y);
-    outtextxy((A.x + B.x) / 2 + 20, (A.y + B.y) / 2 + 10, "R");
-    line(C1.c.x, C1.c.y, B.x, B.y);
-    line(C1.c.x, C1.c.y, Bp.x, Bp.y);
-
-    setcolor(CYAN);
-    setlinestyle(0, 0, 2);
-    line((C1.c.x + B.x) / 2 - 10, (C1.c.y + B.y) / 2 + 10, C2.c.x + 10, C2.c.y - 10);
-    setlinestyle(0, 0, 0);
-
-    setcolor(YELLOW);
-    punct Tp = {Cp.x - 50, Cp.y - 10};
-    draw_point(Tp, YELLOW);
-    outtextxy(Tp.x - 10, Tp.y + 30, "T'");
-
-    punct Wp = {Bp.x, Bp.y - 375};
-    draw_point(Wp, YELLOW);
-    outtextxy(Wp.x + 20, Wp.y + 30, "W'");
-    line(Bp.x, Bp.y, Wp.x, Wp.y);
-    line(Tp.x, Tp.y, Wp.x, Wp.y);
-
-    setcolor(GREEN);
-    dash_line(Wp, (punct){(C.x + A.x) / 2, (C.y + A.y) / 2});
+    cerc D = {404, 450, 110};
+    circle(D.c.x, D.c.y, D.r);
 }
 
 float produs_scalar(vector u,vector v){  //  u=(u.x , u.y), v= ( v.x , v.y)   <u, v> = u * v, 

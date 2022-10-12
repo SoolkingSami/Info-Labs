@@ -103,6 +103,8 @@ void draw_figure() {
     setcolor(YELLOW);
     cerc D = {404, 450, 110};
     circle(D.c.x, D.c.y, D.r);
+
+    
 }
 
 float produs_scalar(vector u,vector v){  //  u=(u.x , u.y), v= ( v.x , v.y)   <u, v> = u * v, 

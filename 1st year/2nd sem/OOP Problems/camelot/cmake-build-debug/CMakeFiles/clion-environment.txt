@@ -1,0 +1,4 @@
+ToolSet: w64 9.0 (local)@C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=C:/Users/asus/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/ninja/win/ninja.exe

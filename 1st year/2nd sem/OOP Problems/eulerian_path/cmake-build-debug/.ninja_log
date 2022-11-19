@@ -1,0 +1,9 @@
+# ninja log v5
+0	7044	6896316169707633	CMakeFiles/eulerian_path.dir/main.cpp.obj	43fc44382fcf5b3f
+7136	8009	6896316180051501	eulerian_path.exe	68b2a8399a687f68
+12	3055	6896317611004701	CMakeFiles/eulerian_path.dir/main.cpp.obj	43fc44382fcf5b3f
+3056	3541	6896317615812039	eulerian_path.exe	68b2a8399a687f68
+16	1792	6896325538110544	CMakeFiles/eulerian_path.dir/main.cpp.obj	43fc44382fcf5b3f
+1792	2175	6896325541890674	eulerian_path.exe	68b2a8399a687f68
+7	1717	6896326679093186	CMakeFiles/eulerian_path.dir/main.cpp.obj	43fc44382fcf5b3f
+1718	2025	6896326682103596	eulerian_path.exe	68b2a8399a687f68

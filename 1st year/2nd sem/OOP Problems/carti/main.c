@@ -1,15 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #define R_MAX 101
 #define M_MAX 1001
 #define MOD 9001
 
-long long comb(int n, int k) {
-    long long ret = 1;
+int comb(int n, int k) {
+    int ret = 1;
     for (int i = 1; i <= k; i++) {
-        ret *= n - i + 1;
-        ret /= i;
-        ret %= MOD;
+        ret = (ret * (n - i + 1) / i) % MOD;
     }
     return ret;
 }
@@ -46,6 +45,17 @@ int main() {
 
     // time complexity: O((m * r_max) ^ 2)
 
+//    int **dp[R_MAX] = {0};
+//    for (int i = 0; i < R_MAX; i++) {
+//        dp[i] = malloc(sizeof(int *) * (m + 1));
+//        for (int j = 0; j <= m; j++) {
+//            dp[i][j] = malloc(sizeof(int) * R_MAX);
+//            for (int r = 0; r < R_MAX; r++) {
+//                dp[i][j][r] = 0;
+//            }
+//        }
+//    }
+
     dp[0][0][0] = 1;
 
     // treat residue class 0 as a special case
@@ -59,8 +69,7 @@ int main() {
                 dp[i][j][r] = 0;
 
                 for (int p = 0; p <= j && p <= rc[i]; p++) {
-                    dp[i][j][r] += comb(rc[i], p) * dp[i-1][j-p][(r - p*i + 100) % 100];
-                    dp[i][j][r] %= MOD;
+                    dp[i][j][r] = (dp[i][j][r] + comb(rc[i], p) * dp[i-1][j-p][(r - p*i + 100) % 100]) % MOD;
                 }
             }
         }

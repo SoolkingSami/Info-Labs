@@ -2,27 +2,56 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define N_MAX 1001
+#define N_MAX 1010
 
 int count_str(char *str, char *substr) {
     int count = 0;
     char *p = str;
-    while ((p = strstr(p, substr)) != NULL) {
+    p = strstr(p, substr);
+    while (p != NULL) {
         count++;
         p++;
+        p = strstr(p, substr);
     }
     return count;
 }
 
-char s[N_MAX][N_MAX];
 
 int main() {
-    FILE *fin = fopen("em.in", "r"), *fout = fopen("em.out", "w");
+    FILE *fin = fopen("em2.in", "r"), *fout = fopen("em2.out", "w");
     int n = 0;
 
-    while (fgets(s[n], N_MAX, fin) != NULL) {
+//    while (fgets(s[n], N_MAX, fin) != NULL) {
+//        s[n][strlen(s[n]) - 1] = '\0';
+//        n++;
+//    }
+//    --n;
+
+    // read first line
+    char *str = (char *) malloc(N_MAX * sizeof(char));
+    fgets(str, N_MAX, fin);
+    str[strlen(str) - 1] = '\0';
+    n++;
+
+    // count the number of lines
+    while (fgets(str, N_MAX, fin) != NULL) {
+        str[strlen(str) - 1] = '\0';
         n++;
     }
+
+    // allocate memory for the array of strings
+    char **s = (char **) malloc(n * sizeof(char *));
+    for (int i = 0; i < n; i++) {
+        s[i] = (char *) malloc(strlen(str) * sizeof(char));
+    }
+
+    // read the strings
+    rewind(fin);
+    for (int i = 0; i < n; i++) {
+        fgets(s[i], N_MAX, fin);
+        s[i][strlen(s[i]) - 1] = '\0';
+    }
+    free(str);
     --n;
 
     // 1
